@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+class Main 
+{
+
+  public static void main(String[] args) 
+  {
+  
+    Scanner leitor = new Scanner(System.in);
+    System.out.println("Informe o valor de x: ");
+    double x = leitor.nextDouble();
+    System.out.println("Informe o valor de y: ");
+    double y = leitor.nextDouble();
+
+    double raiz = Math.abs(y - (0.01*Math.pow(x,2)));
+    double ValorRaiz = Math.sqrt(raiz);
+    double funcao = 100 * ValorRaiz + 0.01 * (Math.abs(x+10));
+
+    System.out.println("O resultado da função foi: "funcao);
+    
+  }
+  
+}
