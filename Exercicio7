@@ -14,9 +14,9 @@ class Main
 
     double raiz = Math.abs(y - (0.01*Math.pow(x,2)));
     double ValorRaiz = Math.sqrt(raiz);
-    double funcao = 100 * ValorRaiz + 0.01 * (Math.abs(x+10));
+    double func = 100 * ValorRaiz + 0.01 * (Math.abs(x+10));
 
-    System.out.println("O resultado da função foi: "funcao);
+    System.out.println("O resultado da função foi: "func);
     
   }
   
